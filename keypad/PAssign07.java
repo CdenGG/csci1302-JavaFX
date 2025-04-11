@@ -1,5 +1,3 @@
-
-
 package keypad;
 
 /**
@@ -11,7 +9,7 @@ package keypad;
  * Description: A functional program that models a nuclear launch device. Save a launch code then
  * enter the code in the keypad. Use !Commands in the console for more.
  * GitHub Hello World Assignment Repo: https://github.com/CdenGG/hello-world
- * This GitHub Repo:
+ * This GitHub Repo: https://github.com/CdenGG/csci1302-JavaFX
  */
 
 import javafx.application.Application;
@@ -39,23 +37,25 @@ public class PAssign07 extends Application {
     public void start(Stage primaryStage) {
 
         // initialize and style nodes
+        String boldStyle = "-fx-font-weight: bold; -fx-font-size: 12px;";
+
         Label label = new Label("Set Launch Codes: ");
-        label.setStyle("-fx-font-weight: bold; -fx-font-size: 12px;");
+        label.setStyle(boldStyle);
 
         Label consoleTitle = new Label("Console: ");
-        consoleTitle.setStyle("-fx-font-weight: bold; -fx-font-size: 12px;");
+        consoleTitle.setStyle(boldStyle);
 
         TextField setLaunchCodes = new TextField();
         TextField console = new TextField();
 
         Button saveText = new Button("Save");
-        saveText.setStyle("-fx-font-weight: bold; -fx-font-size: 12px;");
+        saveText.setStyle(boldStyle);
 
         Button launchNukeButton = new Button("LAUNCH");
-        launchNukeButton.setStyle("-fx-font-weight: bold; -fx-font-size: 12px;");
+        launchNukeButton.setStyle(boldStyle);
 
         Button clearButton = new Button("CLEAR");
-        clearButton.setStyle("-fx-font-weight: bold; -fx-font-size: 12px;");
+        clearButton.setStyle(boldStyle);
 
         // add launch and clear buttons to HBox for precise positioning
         HBox buttonBox = new HBox(10);
@@ -219,5 +219,3 @@ public class PAssign07 extends Application {
         log.clear();
     }
 }
-
-
