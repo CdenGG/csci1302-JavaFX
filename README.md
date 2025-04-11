@@ -1,3 +1,7 @@
+
+#Description of this Fork
+This fork is for PAssign07 by Cayden Gosseck.
+
 # csci1302-JavaFX
  This repository contains public code files for GSU CSCI 1302 students.
  
