@@ -74,6 +74,4 @@ public class KeyPadPaneCustom extends KeyPadPane {
         this.currentCode.setLength(0);
         this.currentCode.append(code);
     }
-
-
 }
