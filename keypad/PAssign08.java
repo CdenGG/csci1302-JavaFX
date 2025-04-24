@@ -23,7 +23,7 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
 
-public class PAssign07 extends Application {
+public class PAssign08 extends Application {
 
     // static data
     public static int code = -1;
